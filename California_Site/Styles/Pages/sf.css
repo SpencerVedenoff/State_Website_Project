@@ -1,0 +1,12 @@
+#main-image {
+    width: auto;
+    left: -5vw;
+}
+
+@media screen and (max-width:500px) {
+    #main-image {
+        margin-left: -20vw;
+    }
+}
+
+/* Modelled much of the stylistic choices off of similar pages that I used for my Data and sources information by inspecting HTML element*/

@@ -1,0 +1,53 @@
+ h1 {
+     font-size: 12rem;
+ }
+
+ #main-container {
+     display: flex;
+ }
+
+ .section--image {
+     width: 75vw;
+ }
+
+ aside {
+     text-align: justify;
+     margin-left: 65px;
+     width: 30ch;
+ }
+
+ @media screen and (max-width:1300px) {
+     h1 {
+         font-size: 6rem;
+     }
+
+     aside {
+         margin-left: 30px;
+     }
+
+ }
+
+ @media screen and (max-width:1500px) {
+     body {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+
+     .section--image {
+         width: 100%;
+     }
+
+     #main-container {
+         flex-wrap: wrap;
+         align-content: flex-start;
+     }
+
+     aside {
+         margin-left: 0;
+         width: 100%;
+     }
+
+ }
+
+
+/* Modelled much of the stylistic choices off of similar pages that I used for my Data and sources information by inspecting HTML element*/
